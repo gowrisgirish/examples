@@ -1,0 +1,16 @@
+pipeline:
+  name: trigger-1
+  identifier: trigger1
+  projectIdentifier: Labs
+  orgIdentifier: Customer_Experience
+  tags: {}
+  stages:
+    - stage:
+        name: child-pipeline
+        identifier: childpipeline
+        description: ""
+        type: Pipeline
+        spec:
+          org: Customer_Experience
+          pipeline: childpipeline
+          project: Labs

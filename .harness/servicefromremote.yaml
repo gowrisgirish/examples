@@ -3,3 +3,6 @@ service:
   identifier: servicefromremote
   orgIdentifier: Customer_Experience
   projectIdentifier: Labs
+  serviceDefinition:
+    spec: {}
+    type: Kubernetes

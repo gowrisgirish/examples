@@ -9,4 +9,4 @@ template:
   spec:
     type: Wait
     spec:
-      duration: 13m
+      duration: 10m

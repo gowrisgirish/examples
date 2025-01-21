@@ -1,0 +1,12 @@
+template:
+  name: ansible_hello_world_windows_ntlm_step---1-1
+  identifier: ansible_hello_world_windows_ntlm_step11
+  versionLabel: v1
+  type: Step
+  projectIdentifier: test
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: Wait
+    spec:
+      duration: 10m
